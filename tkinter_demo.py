@@ -11,7 +11,7 @@ from tkcalendar import DateEntry
 from copy import copy
 
 # Read data from Excel file
-excel_file_path = r"C:\Users\vinay.jha\OneDrive - UKG\MS Garnishment Services\Noida Team\POD_Utilization\POD Utilization1.xlsx"
+excel_file_path = r"Filepath\POD_Utilization\POD Utilization1.xlsx"
 df = pd.read_excel(excel_file_path, sheet_name="Sheet2")
 ws = pd.read_excel(excel_file_path, sheet_name="Utilisation")
 
